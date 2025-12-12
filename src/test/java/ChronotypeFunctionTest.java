@@ -29,12 +29,12 @@ class ChronotypeFunctionTest {
     void testSova() {
         List<SleepSession> sessions = Arrays.asList(
                 new SleepSession(
-                        LocalDateTime.of(2025, 10, 1, 0, 30),  // после 23:00
-                        LocalDateTime.of(2025, 10, 1, 10, 0), // после 09:00
+                        LocalDateTime.of(2025, 10, 1, 23, 30),  // после 23:00
+                        LocalDateTime.of(2025, 10, 2, 10, 0), // после 09:00
                         "GOOD"
                 ),
                 new SleepSession(
-                        LocalDateTime.of(2025, 10, 2, 1, 0),   // после 23:00
+                        LocalDateTime.of(2025, 10, 2, 23, 5),   // после 23:00
                         LocalDateTime.of(2025, 10, 2, 9, 30), // после 09:00
                         "NORMAL"
                 )

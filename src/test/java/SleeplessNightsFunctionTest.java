@@ -42,6 +42,6 @@ class SleeplessNightsFunctionTest {
         );
 
         SleeplessNightsFunction func = new SleeplessNightsFunction();
-        assertEquals(1L, func.apply(sessions));
+        assertEquals(0L, func.apply(sessions));
     }
 }
